@@ -215,7 +215,7 @@ function HeroSection() {
             </Button>
             <Button 
               size="lg"
-              variant="outline"
+              variant="link"
               onClick={() => document.querySelector('#programs')?.scrollIntoView({ behavior: 'smooth' })}
               className="border-2 border-white/30 text-white hover:bg-white/10 rounded-full px-8 py-6 text-lg"
             >
